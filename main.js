@@ -1,8 +1,5 @@
-// 
-// new Glide('.glide').mount()
-console.log('Hello')
 const config = {
-    type: 'crousel',
+    type: 'carousel',
     perView: 3,
     breakpoints:  {
         800: {
@@ -10,4 +7,4 @@ const config = {
         }
     }
 };
-new Glide('.glide', config).mount()
+new Glide('.glide', config).mount();
